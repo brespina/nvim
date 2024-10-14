@@ -16,6 +16,8 @@ vim.api.nvim_set_keymap('v', ';', ':', { noremap = true })
 vim.api.nvim_set_keymap('n', ':', ';', { noremap = true })
 vim.api.nvim_set_keymap('v', ':', ';', { noremap = true })
 
+
+vim.api.nvim_set_keymap('c', 'q!', 'qq', { noremap = true, silent = true })
 -- Highlight trailing whitespace
 vim.api.nvim_set_keymap('n', '<leader>w', ':/\\s\\+$<CR>', { noremap = true })
 
